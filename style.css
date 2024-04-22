@@ -4,35 +4,46 @@ header{
     letter-spacing: 3px;
     text-align: center;
     padding: 5px;
+    border-style: solid;
+    border-color: white;
 }
 
 #sidebar{
     background-color: #e3b957;
     width: 25%;
-    height: 240px;
-    display: flex;
+    height: 390px;
+    text-align: center;    
+    border-style: solid;
+    border-color: white;
 }
 
 #main{
     background-color:#a7dc8a ;
-    display: flex;
-    width: 75%;
+    width: 99.5%;
     text-align: center;
-    height: 200px;
+    height: 250px;
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+
 } 
 
 #widget{
    background-color: #eb867c; 
-   display: flex;
-   width: 25%;
-   height: 200px;
+   width: 50%;
+   height: 135px;
+   text-align: center;
+   border-style: solid;
+   border-color: white;
 }
 
 #statistics{
     background-color: #91b7e8;
-    display: flex;
-    width: 25%;
-    height: 200px;
+    width: 50%;
+    height: 135px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
 }
 
 footer{
@@ -41,23 +52,50 @@ footer{
     letter-spacing: 3px;
     text-align: center;
     padding: 5px;
-    box-shadow: white;
+    border-style: solid;
+    border-color: white;
 }
 
 #container{
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    padding: 15px;
-    flex: auto;
+    width: auto;
+    box-shadow: 0 0 10px gray;
+    margin: auto; 
+    border-style: solid;
+    border-color: white;
+}
+
+.item{
+    display: flex;
 }
 
 #contant{
-    flex-direction: column;
-}
-
-#box{
+    display: flex;
     flex-direction: row;
-
 }
 
+#aha{
+    flex: auto;
+    box-shadow: white;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width 900px) {
+    #contant{
+        flex-direction: column;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    #aha{
+        flex-direction: column;
+    }
+
+    .item , #main , #contant{
+        width: auto;
+    }
+
+
+    
+}
