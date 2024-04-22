@@ -1,0 +1,63 @@
+header{
+    background-color:#b588e7;
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+#sidebar{
+    background-color: #e3b957;
+    width: 25%;
+    height: 240px;
+    display: flex;
+}
+
+#main{
+    background-color:#a7dc8a ;
+    display: flex;
+    width: 75%;
+    text-align: center;
+    height: 200px;
+} 
+
+#widget{
+   background-color: #eb867c; 
+   display: flex;
+   width: 25%;
+   height: 200px;
+}
+
+#statistics{
+    background-color: #91b7e8;
+    display: flex;
+    width: 25%;
+    height: 200px;
+}
+
+footer{
+    background-color:#b588e7;
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: white;
+}
+
+#container{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    flex: auto;
+}
+
+#contant{
+    flex-direction: column;
+}
+
+#box{
+    flex-direction: row;
+
+}
+
