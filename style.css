@@ -20,12 +20,10 @@ header{
 #main{
     background-color:#a7dc8a ;
     width: 99.5%;
-    text-align: center;
     height: 250px;
     border-style: solid;
     border-color: white;
-    margin: auto;
-
+    text-align: center;
 } 
 
 #widget{
@@ -57,9 +55,7 @@ footer{
 }
 
 #container{
-    width: auto;
     box-shadow: 0 0 10px gray;
-    margin: auto; 
     border-style: solid;
     border-color: white;
 }
@@ -70,7 +66,6 @@ footer{
 
 #contant{
     display: flex;
-    flex-direction: row;
 }
 
 #aha{
@@ -79,23 +74,44 @@ footer{
     margin: 0 auto;
 }
 
-@media only screen and (max-width 900px) {
+@media only screen and (max-width: 900px) {
     #contant{
         flex-direction: column;
     }
 
     .item{
         flex-direction: column;
+        display: flex;
     }
 
     #aha{
         flex-direction: column;
     }
 
-    .item , #main , #contant{
-        width: auto;
+    #sidebar{
+        width: 900px;
+        height: 100px;
     }
 
+    #main{
+        width: 900px;
+    }
 
-    
+    #widget{
+        width: 900px;
+        height: 130px;
+    }
+
+    #statistics{
+        width: 900px;
+        height: 130px;
+    }
+
+    header{
+        width: 900px;
+    }
+
+    footer{
+        width: 900px;
+    }
 }
